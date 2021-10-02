@@ -23,6 +23,7 @@
 
 using namespace std;
 
+// refer to https://github.com/openppl-public/ppl.nn/blob/master/src/ppl/nn/engines/x86/impls/src/ppl/kernel/x86/fp32/mmcv_nms/mmcv_nms_fp32.cpp
 template <typename DataType, typename IndexType>
 inline void argsort(const DataType *src, IndexType *indices, const int64_t length, const bool dec = true)
 {
