@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../include/mmcv_nms.h
+ppl/common/retcode.h
+../include/ppl/common/retcode.h
+
 ../include/utils.h
 vector
 -
@@ -127,14 +131,6 @@ sys/stat.h
 -
 unistd.h
 -
-
-/home/dell/workspace/CODE/C++/yolov5s-ppl.nn/test/test_yolov5.cpp
-yolov5.h
-/home/dell/workspace/CODE/C++/yolov5s-ppl.nn/test/yolov5.h
-memory
--
-string
--
-opencv2/opencv.hpp
--
+mmcv_nms.h
+/home/dell/workspace/CODE/C++/yolov5s-ppl.nn/src/mmcv_nms.h
 

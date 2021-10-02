@@ -89,9 +89,22 @@ CMakeFiles/test_yolov5.dir/test/test_yolov5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_yolov5.dir/test/test_yolov5.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dell/workspace/CODE/C++/yolov5s-ppl.nn/test/test_yolov5.cpp -o CMakeFiles/test_yolov5.dir/test/test_yolov5.cpp.s
 
+CMakeFiles/test_yolov5.dir/src/mmcv_nms.cpp.o: CMakeFiles/test_yolov5.dir/flags.make
+CMakeFiles/test_yolov5.dir/src/mmcv_nms.cpp.o: ../src/mmcv_nms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dell/workspace/CODE/C++/yolov5s-ppl.nn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_yolov5.dir/src/mmcv_nms.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_yolov5.dir/src/mmcv_nms.cpp.o -c /home/dell/workspace/CODE/C++/yolov5s-ppl.nn/src/mmcv_nms.cpp
+
+CMakeFiles/test_yolov5.dir/src/mmcv_nms.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_yolov5.dir/src/mmcv_nms.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dell/workspace/CODE/C++/yolov5s-ppl.nn/src/mmcv_nms.cpp > CMakeFiles/test_yolov5.dir/src/mmcv_nms.cpp.i
+
+CMakeFiles/test_yolov5.dir/src/mmcv_nms.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_yolov5.dir/src/mmcv_nms.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dell/workspace/CODE/C++/yolov5s-ppl.nn/src/mmcv_nms.cpp -o CMakeFiles/test_yolov5.dir/src/mmcv_nms.cpp.s
+
 CMakeFiles/test_yolov5.dir/src/utils.cpp.o: CMakeFiles/test_yolov5.dir/flags.make
 CMakeFiles/test_yolov5.dir/src/utils.cpp.o: ../src/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dell/workspace/CODE/C++/yolov5s-ppl.nn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_yolov5.dir/src/utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dell/workspace/CODE/C++/yolov5s-ppl.nn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test_yolov5.dir/src/utils.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_yolov5.dir/src/utils.cpp.o -c /home/dell/workspace/CODE/C++/yolov5s-ppl.nn/src/utils.cpp
 
 CMakeFiles/test_yolov5.dir/src/utils.cpp.i: cmake_force
@@ -104,7 +117,7 @@ CMakeFiles/test_yolov5.dir/src/utils.cpp.s: cmake_force
 
 CMakeFiles/test_yolov5.dir/src/yolov5.cpp.o: CMakeFiles/test_yolov5.dir/flags.make
 CMakeFiles/test_yolov5.dir/src/yolov5.cpp.o: ../src/yolov5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dell/workspace/CODE/C++/yolov5s-ppl.nn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test_yolov5.dir/src/yolov5.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dell/workspace/CODE/C++/yolov5s-ppl.nn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test_yolov5.dir/src/yolov5.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_yolov5.dir/src/yolov5.cpp.o -c /home/dell/workspace/CODE/C++/yolov5s-ppl.nn/src/yolov5.cpp
 
 CMakeFiles/test_yolov5.dir/src/yolov5.cpp.i: cmake_force
@@ -118,6 +131,7 @@ CMakeFiles/test_yolov5.dir/src/yolov5.cpp.s: cmake_force
 # Object files for target test_yolov5
 test_yolov5_OBJECTS = \
 "CMakeFiles/test_yolov5.dir/test/test_yolov5.cpp.o" \
+"CMakeFiles/test_yolov5.dir/src/mmcv_nms.cpp.o" \
 "CMakeFiles/test_yolov5.dir/src/utils.cpp.o" \
 "CMakeFiles/test_yolov5.dir/src/yolov5.cpp.o"
 
@@ -125,6 +139,7 @@ test_yolov5_OBJECTS = \
 test_yolov5_EXTERNAL_OBJECTS =
 
 test_yolov5: CMakeFiles/test_yolov5.dir/test/test_yolov5.cpp.o
+test_yolov5: CMakeFiles/test_yolov5.dir/src/mmcv_nms.cpp.o
 test_yolov5: CMakeFiles/test_yolov5.dir/src/utils.cpp.o
 test_yolov5: CMakeFiles/test_yolov5.dir/src/yolov5.cpp.o
 test_yolov5: CMakeFiles/test_yolov5.dir/build.make
@@ -134,7 +149,7 @@ test_yolov5: /usr/local/lib/libopencv_imgcodecs.so.3.4.0
 test_yolov5: /usr/local/lib/libopencv_imgproc.so.3.4.0
 test_yolov5: /usr/local/lib/libopencv_core.so.3.4.0
 test_yolov5: CMakeFiles/test_yolov5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dell/workspace/CODE/C++/yolov5s-ppl.nn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable test_yolov5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dell/workspace/CODE/C++/yolov5s-ppl.nn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable test_yolov5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_yolov5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

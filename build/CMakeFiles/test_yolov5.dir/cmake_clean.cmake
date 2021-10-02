@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/test_yolov5.dir/src/mmcv_nms.cpp.o"
   "CMakeFiles/test_yolov5.dir/src/utils.cpp.o"
   "CMakeFiles/test_yolov5.dir/src/yolov5.cpp.o"
   "CMakeFiles/test_yolov5.dir/test/test_yolov5.cpp.o"

@@ -20,6 +20,9 @@ int main(int argc, char* argv[]){
     yolov5_params.std[1] = 255.0f;
     yolov5_params.std[2] = 255.0f;
 
+    yolov5_params.prob_threshold = 0.5;
+    yolov5_params.nms_threshold  = 0.45;
+
 
     Yolov5Impl* yolov5 = new Yolov5Impl(yolov5_params);
     yolov5->yolov5_network_detect_init();

@@ -29,6 +29,9 @@ struct ModelParams{
 
     float mean[3];           ///< The mean of input image
     float std[3];            ///< The std of input image
+
+    float prob_threshold;    ///< score threshold
+    float nms_threshold;     ///< iou threshold
 };
 
 /**
@@ -46,6 +49,7 @@ class Yolov5Impl{
 
     private:
         ModelParams model_params;
+        float* in_data;
         std::unique_ptr<ppl::nn::Runtime> context;
         std::shared_ptr<ppl::nn::Tensor> input_tensor;
 

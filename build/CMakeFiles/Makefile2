@@ -93,12 +93,12 @@ clean: CMakeFiles/test_yolov5.dir/clean
 CMakeFiles/test_yolov5.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_yolov5.dir/build.make CMakeFiles/test_yolov5.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_yolov5.dir/build.make CMakeFiles/test_yolov5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dell/workspace/CODE/C++/yolov5s-ppl.nn/build/CMakeFiles --progress-num=1,2,3,4 "Built target test_yolov5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dell/workspace/CODE/C++/yolov5s-ppl.nn/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target test_yolov5"
 .PHONY : CMakeFiles/test_yolov5.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_yolov5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dell/workspace/CODE/C++/yolov5s-ppl.nn/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dell/workspace/CODE/C++/yolov5s-ppl.nn/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_yolov5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dell/workspace/CODE/C++/yolov5s-ppl.nn/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_yolov5.dir/rule

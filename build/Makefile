@@ -142,6 +142,33 @@ test_yolov5/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_yolov5.dir/build.make CMakeFiles/test_yolov5.dir/build
 .PHONY : test_yolov5/fast
 
+src/mmcv_nms.o: src/mmcv_nms.cpp.o
+
+.PHONY : src/mmcv_nms.o
+
+# target to build an object file
+src/mmcv_nms.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_yolov5.dir/build.make CMakeFiles/test_yolov5.dir/src/mmcv_nms.cpp.o
+.PHONY : src/mmcv_nms.cpp.o
+
+src/mmcv_nms.i: src/mmcv_nms.cpp.i
+
+.PHONY : src/mmcv_nms.i
+
+# target to preprocess a source file
+src/mmcv_nms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_yolov5.dir/build.make CMakeFiles/test_yolov5.dir/src/mmcv_nms.cpp.i
+.PHONY : src/mmcv_nms.cpp.i
+
+src/mmcv_nms.s: src/mmcv_nms.cpp.s
+
+.PHONY : src/mmcv_nms.s
+
+# target to generate assembly for a file
+src/mmcv_nms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_yolov5.dir/build.make CMakeFiles/test_yolov5.dir/src/mmcv_nms.cpp.s
+.PHONY : src/mmcv_nms.cpp.s
+
 src/utils.o: src/utils.cpp.o
 
 .PHONY : src/utils.o
@@ -232,6 +259,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test_yolov5"
+	@echo "... src/mmcv_nms.o"
+	@echo "... src/mmcv_nms.i"
+	@echo "... src/mmcv_nms.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"
