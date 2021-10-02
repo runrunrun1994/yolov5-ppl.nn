@@ -1,0 +1,3 @@
+/home/dell/workspace/CODE/C++/yolov5s-ppl.nn/build/CMakeFiles/rebuild_cache.dir
+/home/dell/workspace/CODE/C++/yolov5s-ppl.nn/build/CMakeFiles/test_yolov5.dir
+/home/dell/workspace/CODE/C++/yolov5s-ppl.nn/build/CMakeFiles/edit_cache.dir
